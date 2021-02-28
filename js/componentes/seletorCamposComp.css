@@ -1,0 +1,52 @@
+ul{
+list-style-type: none;
+list-style-position: outside;
+margin:0 !important;
+padding:0px !important;
+}
+.box-escolhercampos{
+border:1px solid black;
+height:300px;
+width:550px;
+}
+.box-escolhercampos li:hover{
+background-color:PowderBlue ;
+cursor:pointer;
+}
+.box-camposdisponiveis {
+border:1px solid black;
+width:250px;
+height:300px;
+display:inline-block;
+float:left;
+}
+.box-camposdisponiveis li[selected]{
+  border:1px dashed black;
+  background-color:aliceblue;
+}
+.box-camposescolhidos {
+border:1px solid black;
+width:250px;
+height:300px;
+display:inline-block;
+float:left;
+}
+.box-camposescolhidos li[selected]{
+  border:1px dashed black;
+  background-color:aliceblue;
+}
+.box-botoes {
+border:1px solid black;
+width:48px;
+height:300px;
+display:inline-block;
+float:left;
+}
+.box-botoes button {
+margin: 0;
+position: relative;
+top: 40%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}

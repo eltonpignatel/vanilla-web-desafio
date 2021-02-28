@@ -1,0 +1,15 @@
+<div class="box-escolhercampos" oncontextmenu="incluirComponente('menuContextoComp');return false">
+<div class="box-camposdisponiveis">
+<ul id="listaEscolherCampos">
+<li onClick="selecionarCampo(this)" appml-repeat="campos">{{Nome}}</li>
+</ul>
+</div>
+<div class="box-botoes">
+<button onClick="preencheCamposEscolhidos(this)">></button><br/>
+<button onClick="preencheEscolherCampos(this)"><</button>
+</div>
+<div class="box-camposescolhidos">
+<ul id="listaCamposEscolhidos">
+</ul>
+</div>
+</div>

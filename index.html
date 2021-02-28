@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Tabela AppML</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	  <link href="css/style.css" rel="stylesheet"/>
+
+    <script src="js/import/jquery-3.2.1.min.js"></script>
+    <script src="js/import/bootstrap.min.js"></script>
+    <script src="js/import/appml.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body onMouseMove="getPositions();">
+  <div class="menuprincipal">
+    <button class="btn" onclick="incluirComponente('tabelaComp')">Incluir Tabela</button>
+    <button class="btn" onclick="incluirComponente('seletorCamposComp')">Incluir Seletor de Campos</button>
+    <button class="btn"  onclick="reload()">Limpar</button>
+  </div>
+  <div id="root" class="container"></div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+table {
+padding:0;
+border-spacing:0;
+border-collapse:0;
+}
+table thead{
+font-size:15px;
+font-weight:bold;
+}
+table tr td {
+border:1px solid black;
+}
+table tr:hover{
+  background-color: PowderBlue  !important;
+}
+.level1{
+display:table-row;
+padding-left:1px;
+font-size:14px;
+}
+.level2{
+display:none;
+margin-left:10%;
+padding-left:10px;
+font-size:12px;
+text-indent:2%;
+
+}
+.botao-expandir{
+cursor:pointer;
+float:right;
+text-align:right;
+width:20px;
+height:20px;
+}

@@ -1,0 +1,16 @@
+{
+  "unidades":[
+    {"Unidade":"Embalagens","Faturamento":"12000","Meta":"12000","Level":"1"},
+    {"Unidade":"Incoplast-SC","Faturamento":"6000","Meta":"7000","Level":"2"},
+    {"Unidade":"Incoplast-PR","Faturamento":"4000","Meta":"5000","Level":"2"},
+    {"Unidade":"Incoplast-PB","Faturamento":"2000","Meta":"1000","Level":"2"},
+    {"Unidade":"Descartaveis","Faturamento":"12000","Meta":"11000","Level":"1"},
+    {"Unidade":"Copobras-SC","Faturamento":"8000","Meta":"9000","Level":"2"},
+    {"Unidade":"Copobras-MG","Faturamento":"4000","Meta":"2000","Level":"2"}
+  ],
+  "campos":[
+    {"Nome":"Unidade","Tipo":"caracter"},
+    {"Nome":"Faturamento","Tipo":"numero"},
+    {"Nome":"Meta","Tipo":"numero"}
+  ]
+}

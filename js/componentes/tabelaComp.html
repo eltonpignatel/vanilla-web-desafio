@@ -1,0 +1,14 @@
+<table id="tabelaComponente" width="600px" class="table-striped"  oncontextmenu="incluirComponente('menuContextoComp');return false">
+<thead>
+<td>Categoria<abbr title="Clique para expandir/recolher as linhas."><img class="botao-expandir" src="img/expandir.png" onclick="expandirTabela(this)"/></abbr></td>
+<td>Faturamento</td>
+<td>Metas</td>
+</thead>
+<tbody>
+<tr onclick="expandirSecao(this);" class="level{{Level}}" appml-repeat="unidades">
+<td>{{Unidade}}</td>
+<td>{{Faturamento}}</td>
+<td>{{Meta}}</td>
+</tr>
+</tbody>
+</table>
